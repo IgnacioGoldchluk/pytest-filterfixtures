@@ -16,8 +16,23 @@ classifiers = [
     "Topic :: Utilities",
 ]
 
+[build-system]
+requires = ["uv_build>=0.9.3,<0.10.0"]
+build-backend = "uv_build"
+
 [dependency-groups]
 dev = ["ruff>=0.14.11"]
+
+[project.entry-points.pytest11]
+pytest-filterfixtures = "pytest_filterfixtures.plugin"
+
+[tool.pytest]
+strict_config = true
+strict_markers = true
+testpaths = ["tests"]
+
+[tool.uv]
+package = true
 
 [tool.ruff]
 fix = true
@@ -38,17 +53,3 @@ select = [
     "C90", # Mccabe
     "N",   # Naming conventions
 ]
-
-
-[project.entry-points.pytest11]
-accept = "pytest_filterfixtures"
-
-[tool.pytest]
-strict_config = true
-strict_markers = true
-testpaths = ["tests"]
-
-
-[tool.uv.build-backend]
-module-name = "pytest_filterfixtures"
-module-root = ""
