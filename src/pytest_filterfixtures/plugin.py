@@ -42,4 +42,6 @@ def pytest_collection_modifyitems(
             if any(f in include for f in getattr(item, "fixturenames", []))
         ]
 
+    deselected = [i for i in items if i not in tmp_items]
+    config.hook.pytest_deselected(items=deselected)
     items[:] = tmp_items
