@@ -1,8 +1,8 @@
-"""pytest plugin to filter tests by the fixtures they use"""
+"""pytest plugin to filter tests based on their fixtures."""
 
 import pytest
 
-__version__ = "0.0.1"
+__version__ = "0.1.0"
 
 
 def pytest_addoption(parser: pytest.Parser):
