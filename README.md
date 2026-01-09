@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI - Version](https://img.shields.io/pypi/v/pytest-filterfixtures) [![CI](https://github.com/IgnacioGoldchluk/pytest-filterfixtures/actions/workflows/ci.yml/badge.svg)](https://github.com/IgnacioGoldchluk/pytest-filterfixtures/actions/workflows/ci.yml)
+
+
 # pytest-filterfixtures
 
 `pytest-filterfixtures` is a `pytest` plugin to filter tests based on their fixtures.
