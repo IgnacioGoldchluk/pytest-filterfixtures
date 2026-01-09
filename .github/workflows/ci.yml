@@ -17,10 +17,10 @@ jobs:
         uses: astral-sh/ruff-action@v3
 
       - name: lint
-        run: ruff run check .
+        run: ruff check .
 
       - name: format
-        run: ruff run format . --check
+        run: ruff format . --check
 
   test:
     needs: format_and_lint
