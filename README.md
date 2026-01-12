@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI - Version](https://img.shields.io/pypi/v/pytest-filterfixtures) [![CI](https://github.com/IgnacioGoldchluk/pytest-filterfixtures/actions/workflows/ci.yml/badge.svg)](https://github.com/IgnacioGoldchluk/pytest-filterfixtures/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PyPI - Version](https://img.shields.io/pypi/v/pytest-filterfixtures)](https://pypi.org/project/pytest-filterfixtures/) [![CI](https://github.com/IgnacioGoldchluk/pytest-filterfixtures/actions/workflows/ci.yml/badge.svg)](https://github.com/IgnacioGoldchluk/pytest-filterfixtures/actions/workflows/ci.yml)
 
 
 # pytest-filterfixtures
